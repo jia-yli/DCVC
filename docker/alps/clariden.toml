@@ -1,0 +1,10 @@
+image = "/capstor/scratch/cscs/ljiayong/enroot_images/dcvc.sqsh"
+mounts = ["/capstor/scratch/cscs/ljiayong:/capstor/scratch/cscs/ljiayong",
+          "/users/ljiayong/projects/DCVC:/users/ljiayong/projects/DCVC",
+          ]
+workdir = "/users/ljiayong/projects/DCVC"
+writable = true
+
+[env]
+NVIDIA_VISIBLE_DEVICES = "all"
+NVIDIA_DRIVER_CAPABILITIES = "compute,utility"
